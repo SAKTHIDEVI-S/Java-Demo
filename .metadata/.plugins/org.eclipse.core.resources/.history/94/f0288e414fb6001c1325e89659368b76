@@ -1,5 +1,0 @@
-package supermarket.products;
-
-public enum Fat {
-	HALFCREAM, FULLCREAM, SKIMMED
-}

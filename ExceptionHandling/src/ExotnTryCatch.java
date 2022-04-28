@@ -9,12 +9,13 @@ public class ExotnTryCatch {
 			int num2 = sc.nextInt();
 			int num3 = num1+num2;
 			System.out.println("Result " +num3);
-		} catch (Exception ex) {
-			System.out.println("Addition can be made only with integers");
-		}
+		} //catch (Exception ex) {
+			//System.out.println("Addition can be made only with integers");
+		//}
 		finally {
 			System.out.println("Final is executed regardless of exception is thrown or not");
 		}
+		System.out.println("To check");
 	}
 
 }
